@@ -1,0 +1,49 @@
+package ms.students.server.models.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import ms.students.commons.models.entity.Student;
+import ms.students.server.models.dao.IStudentRepository;
+
+@Service
+public class StudentService implements IStudentService{
+
+	/*
+	@Override
+	public List<Student> findByNameOrLastname(String text) {
+		return iStudentRepository.findByNameOrLastname(text);
+	}
+	*/
+	
+	@Override
+	public List<Student> findAll() {
+		// TODO Auto-generated method stub
+		return (List<Student>) iStudentRepository.findAll();
+	}
+	
+	@Override
+	public Student findById(Long id) {
+		// TODO Auto-generated method stub
+		return iStudentRepository.findById(id).orElse(null);
+	}
+
+	@Override
+	public void save(Student student) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Autowired
+	private IStudentRepository iStudentRepository;
+
+
+}

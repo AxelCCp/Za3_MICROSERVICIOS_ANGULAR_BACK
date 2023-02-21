@@ -1,0 +1,33 @@
+package ms.students.server.models.services;
+
+import java.util.List;
+
+import ms.students.commons.models.entity.Country;
+
+public class CountryService implements ICountryService{
+
+	@Override
+	public List<Country> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Country findById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Country save(Country country) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

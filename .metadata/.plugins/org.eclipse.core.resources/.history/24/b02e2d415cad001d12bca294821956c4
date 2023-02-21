@@ -1,0 +1,19 @@
+package ms.students.server.controllers;
+
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import ms.students.commons.models.entity.Student;
+
+@RestController
+public class StudentController {
+	
+	
+	@GetMapping("")
+	public ResponseEntity<?>findByNameOrLastname(String text) {
+		return null;
+	}
+}

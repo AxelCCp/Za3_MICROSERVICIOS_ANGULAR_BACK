@@ -1,0 +1,5 @@
+package ms.commons.service.rest.server.controllers;
+
+public class CommonRestController {
+
+}

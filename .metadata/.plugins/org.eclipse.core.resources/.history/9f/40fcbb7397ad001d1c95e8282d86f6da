@@ -1,0 +1,40 @@
+package ms.commons.service.rest.server.models.services;
+
+import java.util.Optional;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
+public class CommonService implements ICommonService<E>{
+
+	@Override
+	public Iterable<E> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<E> porId(Long Id) {
+		// TODO Auto-generated method stub
+		return Optional.empty();
+	}
+
+	@Override
+	public E save(E entity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Page<E> findAll(Pageable pageable) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

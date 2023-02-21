@@ -1,0 +1,46 @@
+package ms.commons.service.rest.server.models.services;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+public class CommonService <E, R extends PagingAndSortingRepository<E,Long>> implements ICommonService<E>{
+
+	@Override
+	public Iterable<E> findAll() {
+		// TODO Auto-generated method stub
+		return genericDao.findAll();
+	}
+
+	@Override
+	public Optional<E> porId(Long Id) {
+		// TODO Auto-generated method stub
+		return genericDao.findById(Id);
+	}
+
+	@Override
+	public E save(E entity) {
+		// TODO Auto-generated method stub
+		return genericDao.save(entity);
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		// TODO Auto-generated method stub
+		genericDao.deleteById(id);
+	}
+
+	@Override
+	public Page<E> findAll(Pageable pageable) {
+		// TODO Auto-generated method stub
+		return genericDao.findAll(pageable);
+	}
+	
+	
+	@Autowired
+	protected R genericDao;
+
+}

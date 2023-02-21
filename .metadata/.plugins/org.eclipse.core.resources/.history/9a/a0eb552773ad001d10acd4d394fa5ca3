@@ -1,0 +1,27 @@
+package ms.students.server.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import ms.students.server.models.services.ICountryService;
+
+public class CountryController {
+
+	@GetMapping
+	public ResponseEntity<?>findAllCountries(){
+		return ResponseEntity.status(HttpStatus.OK).body(countryService.findAll());
+	}
+	
+	@GetMapping("/{id}")
+	public ResponseEntity<?>findCountryById(@PathVariable Long id){
+		return ResponseEntity.status(HttpStatus.OK).body(countryService.findById(id));
+	}
+	
+	
+	@Autowired
+	private ICountryService countryService;
+	
+}

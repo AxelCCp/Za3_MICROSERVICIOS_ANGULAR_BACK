@@ -1,0 +1,12 @@
+package ms.courses.server.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import ms.commons.service.rest.server.controllers.CommonRestController;
+import ms.courses.server.models.entity.Course;
+import ms.courses.server.models.services.ICourseService;
+
+@RestController
+public class CourseRestController extends CommonRestController<Course, ICourseService>{
+
+}

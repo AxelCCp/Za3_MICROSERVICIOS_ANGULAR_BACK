@@ -1,0 +1,49 @@
+package ms.students.server.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import ms.students.commons.models.entity.Country;
+import ms.students.server.models.services.ICountryService;
+
+
+@RestController
+@RequestMapping("/co")
+public class CountryController {
+
+	/*
+	@GetMapping
+	public ResponseEntity<?>findAllCountries(){
+		return ResponseEntity.status(HttpStatus.OK).body(countryService.findAll());
+	}
+	
+	@GetMapping("/{id}")
+	public ResponseEntity<?>findCountryById(@PathVariable Long id){
+		return ResponseEntity.status(HttpStatus.OK).body(countryService.findById(id));
+	}
+
+	@PostMapping
+	public ResponseEntity<?>create(@RequestBody Country country){
+		return ResponseEntity.status(HttpStatus.CREATED).body(countryService.save(country));
+	}
+	
+	@PutMapping("/{id}")
+	public ResponseEntity<?>update(@RequestBody Country country, @PathVariable Long id){
+		Country countryDB = countryService.findById(id);
+		countryDB.setName(country.getName());
+		return ResponseEntity.status(HttpStatus.CREATED).body(countryService.save(countryDB));
+	}
+	
+	
+	@Autowired
+	private ICountryService countryService;
+	*/
+}

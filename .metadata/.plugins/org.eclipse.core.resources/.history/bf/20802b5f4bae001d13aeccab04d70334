@@ -1,0 +1,16 @@
+package ms.students.server.models.services;
+
+
+
+public interface ICountryService {
+
+
+	public List<Country>findAll();
+	
+	public Country findById(Long id);
+	
+	public Country save(Country country);
+	
+	public void deleteById(Long id);
+	
+}

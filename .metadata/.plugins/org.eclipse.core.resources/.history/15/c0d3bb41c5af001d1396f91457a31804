@@ -1,0 +1,9 @@
+package ms.courses.server.models.dao;
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+import ms.courses.server.models.entity.Course;
+
+public interface ICourseDao extends PagingAndSortingRepository<Course, Long>{
+
+}

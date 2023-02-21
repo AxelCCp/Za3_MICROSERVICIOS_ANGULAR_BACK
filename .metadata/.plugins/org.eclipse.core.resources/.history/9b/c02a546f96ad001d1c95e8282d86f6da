@@ -1,0 +1,5 @@
+package ms.commons.service.rest.server.models.services;
+
+public class CommonService {
+
+}

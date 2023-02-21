@@ -1,0 +1,8 @@
+package ms.students.server.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class StudentController {
+
+}

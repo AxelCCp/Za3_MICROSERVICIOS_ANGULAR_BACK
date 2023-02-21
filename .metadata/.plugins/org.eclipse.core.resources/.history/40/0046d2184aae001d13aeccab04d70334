@@ -1,0 +1,21 @@
+package ms.students.server.models.services;
+
+import java.util.List;
+
+import ms.commons.service.rest.server.models.services.ICommonService;
+import ms.students.commons.models.entity.Country;
+
+
+public interface ICountryService extends ICommonService<Country>{
+
+	/*
+	public List<Country>findAll();
+	
+	public Country findById(Long id);
+	
+	public Country save(Country country);
+	
+	public void deleteById(Long id);
+	*/
+	
+}

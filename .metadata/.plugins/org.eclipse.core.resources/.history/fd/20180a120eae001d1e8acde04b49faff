@@ -1,0 +1,7 @@
+package ms.commons.service.rest.server.controllers;
+
+import ms.commons.service.rest.server.models.services.ICommonService;
+
+public class CommonRestController <E,S extends ICommonService<E>>{
+
+}

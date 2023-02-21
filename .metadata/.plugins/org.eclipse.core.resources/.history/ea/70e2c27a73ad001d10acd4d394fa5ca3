@@ -1,0 +1,7 @@
+package ms.students.server.models.dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface ICountryDao extends CrudRepository<Country, Long>{
+
+}
