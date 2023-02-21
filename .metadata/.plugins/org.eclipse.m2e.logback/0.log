@@ -3058,3 +3058,229 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2023-02-18 13:56:32,310 [Worker-99: Launching B_ms-students-server - MsStudentsServerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Z_ms-students-commons: ms.students.commons:ms-students-commons:0.0.1-SNAPSHOT with classifier null to /Z_ms-students-commons/target/classes
 2023-02-18 13:56:32,310 [Worker-99: Launching B_ms-students-server - MsStudentsServerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Z_ms-commons-service-rest-server: ms.commons.service.rest.server:ms-commons-service-rest-server:0.0.1-SNAPSHOT with classifier null to /Z_ms-commons-service-rest-server/target/classes
 2023-02-20 17:16:17,861 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-21 07:52:26,879 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-21 08:04:58,429 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.server:ms-exams-server:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\ms-exams-server\pom.xml.
+2023-02-21 08:04:59,117 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-server/src/main/java
+2023-02-21 08:04:59,117 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-server/src/main/resources
+2023-02-21 08:04:59,119 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-server/src/main/resources
+2023-02-21 08:04:59,122 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-server/src/test/java
+2023-02-21 08:04:59,445 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2023-02-21 08:04:59,447 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-02-21 08:04:59,562 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.server:ms-exams-server:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\ms-exams-server\pom.xml.
+2023-02-21 08:05:00,071 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-server/src/main/java
+2023-02-21 08:05:00,072 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-server/src/main/resources
+2023-02-21 08:05:00,072 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-server/src/main/resources
+2023-02-21 08:05:00,072 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-server/src/test/java
+2023-02-21 08:05:00,636 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-02-21 08:05:02,167 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-21 08:05:02,208 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-21 08:05:02,212 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\A_ms-eureka-server\src\test\resources
+2023-02-21 08:05:03,209 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:03,210 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:05:03,221 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:05:03,223 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:03,224 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\A_ms-zuul-server\src\test\resources
+2023-02-21 08:05:03,916 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-21 08:05:03,930 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-21 08:05:03,934 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-eureka-server\src\test\resources
+2023-02-21 08:05:04,116 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:04,116 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:05:04,122 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:05:04,124 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:04,124 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-zuul-server\src\test\resources
+2023-02-21 08:05:04,503 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:04,503 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:05:04,504 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:05:04,515 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:05:04,518 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:04,519 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:05:04,519 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\Z_ms-commons-service-rest-server\src\test\resources
+2023-02-21 08:05:04,861 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:04,861 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:05:04,862 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:05:04,870 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:05:04,873 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:04,873 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:05:04,873 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\Z_ms-students-commons\src\test\resources
+2023-02-21 08:05:05,235 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Z_ms-students-commons: ms.students.commons:ms-students-commons:0.0.1-SNAPSHOT with classifier  to /Z_ms-students-commons/target/classes
+2023-02-21 08:05:05,236 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Z_ms-commons-service-rest-server: ms.commons.service.rest.server:ms-commons-service-rest-server:0.0.1-SNAPSHOT with classifier  to /Z_ms-commons-service-rest-server/target/classes
+2023-02-21 08:05:05,334 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:05,334 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:05:05,335 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:05:05,343 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:05:05,349 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:05,349 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:05:05,349 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-students-server\src\test\resources
+2023-02-21 08:05:05,871 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Z_ms-students-commons: ms.students.commons:ms-students-commons:0.0.1-SNAPSHOT with classifier  to /Z_ms-students-commons/target/classes
+2023-02-21 08:05:05,872 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Z_ms-commons-service-rest-server: ms.commons.service.rest.server:ms-commons-service-rest-server:0.0.1-SNAPSHOT with classifier  to /Z_ms-commons-service-rest-server/target/classes
+2023-02-21 08:05:05,975 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:05,976 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:05:05,976 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:05:05,985 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:05:05,988 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:05,988 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:05:05,988 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-courses-server\src\test\resources
+2023-02-21 08:05:06,400 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Z_ms-students-commons: ms.students.commons:ms-students-commons:0.0.1-SNAPSHOT with classifier  to /Z_ms-students-commons/target/classes
+2023-02-21 08:05:06,500 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:06,501 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:05:06,501 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:05:06,509 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:05:06,515 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:05:06,515 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:05:06,515 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\A_ms-students-server\src\test\resources
+2023-02-21 08:06:09,981 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.server:ms-exams-server:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-server\pom.xml.
+2023-02-21 08:06:10,538 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-21 08:06:10,544 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-21 08:06:10,546 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-server\src\test\resources
+2023-02-21 08:06:10,773 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-21 08:06:10,775 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-21 08:06:10,776 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-server\src\test\resources
+2023-02-21 08:08:40,719 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.server:ms-exams-server:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-server\pom.xml.
+2023-02-21 08:08:41,148 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:08:41,148 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:08:41,150 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:08:41,151 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:08:41,152 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:08:41,152 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:08:41,153 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-server\src\test\resources
+2023-02-21 08:08:42,494 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:08:42,494 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:08:42,495 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:08:42,502 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:08:42,504 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:08:42,504 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:08:42,504 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-server\src\test\resources
+2023-02-21 08:09:37,615 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.server:ms-exams-server:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-server\pom.xml.
+2023-02-21 08:09:37,742 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Z_ms-commons-service-rest-server: ms.commons.service.rest.server:ms-commons-service-rest-server:0.0.1-SNAPSHOT with classifier  to /Z_ms-commons-service-rest-server/target/classes
+2023-02-21 08:09:38,041 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:09:38,042 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:09:38,043 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:09:38,043 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:09:38,045 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:09:38,045 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:09:38,045 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-server\src\test\resources
+2023-02-21 08:09:39,219 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:09:39,220 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:09:39,220 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:09:39,227 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:09:39,229 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:09:39,229 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:09:39,229 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-server\src\test\resources
+2023-02-21 08:12:25,361 [Worker-46: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.commons:ms-exams-commons:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\ms-exams-commons\pom.xml.
+2023-02-21 08:12:25,646 [Worker-46: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-commons/src/main/java
+2023-02-21 08:12:25,646 [Worker-46: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-commons/src/main/resources
+2023-02-21 08:12:25,648 [Worker-46: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-commons/src/main/resources
+2023-02-21 08:12:25,650 [Worker-46: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-commons/src/test/java
+2023-02-21 08:12:25,869 [Worker-46: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2023-02-21 08:12:25,872 [Worker-46: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-02-21 08:12:25,959 [Worker-46: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.commons:ms-exams-commons:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\ms-exams-commons\pom.xml.
+2023-02-21 08:12:26,154 [Worker-46: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-commons/src/main/java
+2023-02-21 08:12:26,154 [Worker-46: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-commons/src/main/resources
+2023-02-21 08:12:26,154 [Worker-46: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-commons/src/main/resources
+2023-02-21 08:12:26,154 [Worker-46: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-commons/src/test/java
+2023-02-21 08:12:26,354 [Worker-46: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-02-21 08:13:28,599 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.commons:ms-exams-commons:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\ms-exams-commons\pom.xml.
+2023-02-21 08:13:28,844 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-21 08:13:28,844 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-21 08:13:28,847 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\ms-exams-commons\src\test\resources
+2023-02-21 08:13:30,185 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-21 08:13:30,192 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-21 08:13:30,194 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\ms-exams-commons\src\test\resources
+2023-02-21 08:13:30,398 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-02-21 08:13:30,508 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.commons:ms-exams-commons:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\ms-exams-commons\pom.xml.
+2023-02-21 08:13:30,723 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-commons/src/main/java
+2023-02-21 08:13:30,723 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-commons/src/main/resources
+2023-02-21 08:13:30,723 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-commons/src/main/resources
+2023-02-21 08:13:30,724 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-commons/src/test/java
+2023-02-21 08:13:30,934 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-02-21 08:14:36,001 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-21 08:18:46,680 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.commons:ms-exams-commons:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\ms-exams-commons\pom.xml.
+2023-02-21 08:18:47,086 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:18:47,086 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:18:47,091 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:18:47,100 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:18:47,103 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:18:47,104 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:18:47,104 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\ms-exams-commons\src\test\resources
+2023-02-21 08:18:47,760 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-02-21 08:18:47,860 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.commons:ms-exams-commons:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\ms-exams-commons\pom.xml.
+2023-02-21 08:18:48,167 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-commons/src/main/java
+2023-02-21 08:18:48,168 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-commons/src/main/resources
+2023-02-21 08:18:48,168 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-exams-commons/src/main/resources
+2023-02-21 08:18:48,168 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-exams-commons/src/test/java
+2023-02-21 08:18:48,425 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-02-21 08:19:16,092 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.commons:ms-exams-commons:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-commons\pom.xml.
+2023-02-21 08:19:16,478 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:19:16,478 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:19:16,479 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:19:16,487 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:19:16,489 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:19:16,489 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:19:16,489 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-commons\src\test\resources
+2023-02-21 08:19:17,590 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:19:17,590 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:19:17,591 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:19:17,592 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:19:17,594 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:19:17,594 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:19:17,594 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\B_ms-exams-commons\src\test\resources
+2023-02-21 08:20:08,470 [Worker-41: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.exams.commons:ms-exams-commons:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\Z_ms-exams-commons\pom.xml.
+2023-02-21 08:20:08,772 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:20:08,772 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:20:08,773 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:20:08,779 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:20:08,782 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:20:08,782 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:20:08,782 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\Z_ms-exams-commons\src\test\resources
+2023-02-21 08:20:09,029 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:20:09,029 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:20:09,030 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:20:09,031 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:20:09,033 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:20:09,033 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:20:09,033 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\Z_ms-exams-commons\src\test\resources
+2023-02-21 08:20:50,623 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:20:50,623 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:20:50,624 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:20:50,626 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:20:50,627 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:20:50,627 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:20:50,627 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\Z_ms-exams-commons\src\test\resources
+2023-02-21 08:21:00,412 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:21:00,413 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:21:00,413 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:21:00,415 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:21:00,416 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:21:00,416 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:21:00,416 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\Z_ms-exams-commons\src\test\resources
+2023-02-21 08:21:31,520 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:21:31,521 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:21:31,521 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:21:31,523 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:21:31,525 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:21:31,526 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:21:31,526 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\Z_ms-exams-commons\src\test\resources
+2023-02-21 08:22:03,667 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:22:03,667 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:22:03,668 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:22:03,671 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:22:03,673 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:22:03,673 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:22:03,673 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\Z_ms-exams-commons\src\test\resources
+2023-02-21 08:22:19,318 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:22:19,318 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:22:19,318 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:22:19,320 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:22:19,323 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:22:19,323 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:22:19,323 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\Z_ms-exams-commons\src\test\resources
+2023-02-21 08:22:57,051 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:22:57,051 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:22:57,052 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-21 08:22:57,055 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-21 08:22:57,058 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:22:57,058 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:22:57,058 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\Za3_MICROSERVICIOS_ANGULAR_BACK\Z_ms-exams-commons\src\test\resources
+2023-02-21 08:24:21,741 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-21 08:24:21,741 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-21 08:24:21,741 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
