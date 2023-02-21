@@ -71,6 +71,23 @@ public class Student implements Serializable{
 		createAt = new Date();
 	}
 	
+	@Override
+	public boolean equals(Object obj) {
+		
+		if(this == obj) {
+			return true;
+		}
+		
+		if(!(obj instanceof Student)) {
+			return false;
+		}
+			
+		Student a = (Student) obj;
+			
+		return this.id != null && this.id.equals(a.id);
+	}
+	
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;

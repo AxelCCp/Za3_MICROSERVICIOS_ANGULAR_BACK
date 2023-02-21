@@ -11,6 +11,7 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.Table;
@@ -18,6 +19,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotEmpty;
 
+import ms.exams.commons.models.entity.Exam;
 import ms.students.commons.models.entity.Student;
 
 @Entity
@@ -31,6 +33,7 @@ public class Course implements Serializable{
 	
 	public Course() {
 		this.students = new ArrayList<>();
+		this.exams = new ArrayList<>();
 	}
 
 	public Long getId() {
@@ -65,6 +68,15 @@ public class Course implements Serializable{
 		this.students = students;
 	}
 	
+	public List<Exam> getExams() {
+		return exams;
+	}
+
+	public void setExams(List<Exam> exams) {
+		this.exams = exams;
+	}
+
+	
 	//			-----------
 	public void addStudents(Student student) {
 		this.students.add(student);
@@ -74,7 +86,6 @@ public class Course implements Serializable{
 		this.students.remove(student);
 	}
 	//			-----------
-
 
 
 	@Id
@@ -88,11 +99,11 @@ public class Course implements Serializable{
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date createAt;
 	
-	@OneToMany(fetch = FetchType.LAZY)  
+	@OneToMany(fetch = FetchType.LAZY)  					//A COURSE TO VARIOUS STUDENTS.
 	private List<Student>students;
 	
-	//@ManyToMany							
-	//private List<Examen>examenes;
+	@ManyToMany												//A COURSE CAN HAVE VARIOUS EXAMS AND AN EXAM CAN BE IN DIFFERENT COURSES AT THE SAME TIME.			
+	private List<Exam>exams;
 	
 	/**
 	 * 
