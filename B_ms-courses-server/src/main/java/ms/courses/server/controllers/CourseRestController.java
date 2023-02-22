@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import ms.commons.service.rest.server.controllers.CommonRestController;
 import ms.courses.server.models.entity.Course;
 import ms.courses.server.models.services.ICourseService;
+import ms.exams.commons.models.entity.Exam;
 import ms.students.commons.models.entity.Student;
 
 @RestController
@@ -68,6 +69,33 @@ public class CourseRestController extends CommonRestController<Course, ICourseSe
 		Course course = service.findCourseByStudentId(id);
 		return ResponseEntity.ok(course);
 	}
+	
+	
+	@PutMapping("/{id}/assign-exams")
+	public ResponseEntity<?>assignExamToCourse(@RequestBody List<Exam>exams, @PathVariable Long id){
+		Optional<Course>o = this.service.getById(id);
+		if(!o.isPresent()) {
+			return ResponseEntity.notFound().build();
+		}
+		Course courseDB = o.get();
+		exams.forEach(a -> {
+			courseDB.addExam(a);
+		});
+		return ResponseEntity.status(HttpStatus.CREATED).body(this.service.save(courseDB));
+	}
+	
+	
+	@PutMapping("/{id}/delete-exam")
+	public ResponseEntity<?>deleteExam(@RequestBody Exam exam, @PathVariable Long id){
+		Optional<Course>o = this.service.getById(id);
+		if(!o.isPresent()) {
+			return ResponseEntity.notFound().build();
+		}
+		Course courseDB = o.get();
+		courseDB.removeExam(exam);
+		return ResponseEntity.status(HttpStatus.CREATED).body(this.service.save(courseDB));
+	}
+	
 	
 	
 }

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import ms.commons.service.rest.server.controllers.CommonRestController;
@@ -21,6 +22,7 @@ import ms.exams.commons.models.entity.Question;
 import ms.exams.server.models.services.IExamService;
 
 @RestController
+@RequestMapping("/ex")
 public class ExamController extends CommonRestController<Exam, IExamService>{
 	
 	
@@ -63,10 +65,4 @@ public class ExamController extends CommonRestController<Exam, IExamService>{
 		return ResponseEntity.ok(service.findByName(text));
 	}
 
-	
-	//RETURN A SUBJECT LIST
-	@GetMapping("/subjects")
-	public ResponseEntity<?>subjectsList(){
-		return ResponseEntity.ok(service.findAllSubjects());
-	}
 }

@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.Lob;
 import javax.persistence.OneToOne;
 import javax.persistence.PrePersist;
 import javax.persistence.Table;
@@ -16,6 +17,7 @@ import javax.persistence.Column;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
@@ -58,12 +60,17 @@ public class Student implements Serializable{
 	public void setCreateAt(Date createAt) {
 		this.createAt = createAt;
 	}
-	
 	public Country getCountry() {
 		return country;
 	}
 	public void setCountry(Country country) {
 		this.country = country;
+	}
+	public byte[] getPhoto() {
+		return photo;
+	}
+	public void setPhoto(byte[] photo) {
+		this.photo = photo;
 	}
 	
 	@PrePersist
@@ -108,6 +115,12 @@ public class Student implements Serializable{
 	@JoinColumn(name="country_id")
 	@JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
 	private Country country;
+	
+															//A BINARY CONTENT IS SAVED IN PHOTO. 
+	@Lob													//LOB ALLOWS A PERSISTENT PROPERTY OR FIELD, MUST BE PRESERVED AS A LARGE OBJ FOR A LARGE OBJ TYPE, AND Q IS COMPATIBLE WITH THE DB.
+	@JsonIgnore												//IT IS IGNORED IN THE JSON, BECAUSE THE CONTENT IS VERY LARGE.
+	private byte[]photo;
+
 	
 	private static final long serialVersionUID = 7705845283783940467L;
 }

@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -34,7 +36,10 @@ public class CommonRestController<E,S extends ICommonService<E>>{
 	}
 	
 	@PostMapping
-	public ResponseEntity<?>create(@RequestBody E entity){
+	public ResponseEntity<?>create(@Valid @RequestBody E entity, BindingResult result){
+		if(result.hasErrors()) {
+			return this.validation(result);
+		}
 		E entitydb = service.save(entity);
 		return ResponseEntity.status(HttpStatus.CREATED).body(entitydb);
 	}
