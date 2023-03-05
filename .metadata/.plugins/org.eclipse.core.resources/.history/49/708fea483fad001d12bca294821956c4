@@ -1,7 +1,0 @@
-package ms.students.server.models.dao;
-
-import org.springframework.data.repository.CrudRepository;
-
-public class IStudentDao implements CrudRepository<Students,Long> {
-
-}

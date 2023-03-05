@@ -1,5 +1,0 @@
-package ms.students.server.models.dao;
-
-public interface IStudentRepository implements Crudepository<Student, Long>{
-
-}

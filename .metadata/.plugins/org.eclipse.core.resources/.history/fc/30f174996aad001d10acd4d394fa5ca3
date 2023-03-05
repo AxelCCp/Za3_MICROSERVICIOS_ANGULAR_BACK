@@ -1,6 +1,0 @@
-spring.application.name=zuul-server
-server.port=8090
-eureka.client.service-url.defaultZone=http://localhost:8761/eureka
-
-zuul.routes.students.service-id=ms-students-server
-zuul.routes.students.path=/z/students/**
